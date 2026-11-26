@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="Certifications: AWS Certified Solutions Architect - Associate and Azure AI Foundation Certificate">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B1A" />
+      <stop offset="100%" stop-color="#0D1630" />
+    </linearGradient>
+    <linearGradient id="awsCardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0.9" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="azureCardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0078D4" stop-opacity="0.9" />
+      <animate attributeName="x1" values="100%;0%;100%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <radialGradient id="awsAura" cx="20%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#FF9900" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="azureAura" cx="20%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#0078D4" stop-opacity="0" />
+    </radialGradient>
+    <filter id="certGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- CARD 1: AWS Certified Solutions Architect - Associate -->
+  <g transform="translate(8, 10)">
+    <rect x="0" y="0" width="574" height="230" rx="18" fill="url(#cardBg)" />
+    <rect x="0" y="0" width="574" height="230" rx="18" fill="url(#awsAura)" />
+    <rect x="1" y="1" width="572" height="228" rx="17" fill="none" stroke="url(#awsCardBorder)" stroke-width="1.8" />
+
+    <!-- Corner Accents -->
+    <path d="M 16 32 L 16 16 L 32 16" fill="none" stroke="#FF9900" stroke-width="2" />
+    <path d="M 542 214 L 558 214 L 558 198" fill="none" stroke="#FF9900" stroke-width="2" />
+
+    <!-- Geometric Crest Emblem (AWS Cloud Architecture) -->
+    <g transform="translate(90, 115)">
+      <circle cx="0" cy="0" r="56" fill="none" stroke="#FF9900" stroke-opacity="0.3" stroke-dasharray="8 6">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite" />
+      </circle>
+      <polygon points="0,-44 38,-22 38,22 0,44 -38,22 -38,-22" fill="#130E07" stroke="#FF9900" stroke-width="2" filter="url(#certGlow)" />
+      <polygon points="0,-34 29,-17 29,17 0,34 -29,17 -29,-17" fill="none" stroke="#FBBF24" stroke-width="0.9" stroke-opacity="0.55" />
+      <text x="0" y="-2" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="800" fill="#FF9900" letter-spacing="1">AWS</text>
+      <text x="0" y="14" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#FDE68A" letter-spacing="1.2">SAA</text>
+    </g>
+
+    <!-- Credential Details -->
+    <g transform="translate(174, 42)">
+      <rect x="0" y="0" width="194" height="24" rx="12" fill="#1F1507" stroke="#FF9900" stroke-opacity="0.6" />
+      <circle cx="14" cy="12" r="3.8" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="26" y="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#FBBF24" letter-spacing="0.9">CERTIFIED CREDENTIAL</text>
+
+      <text x="0" y="54" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">AWS Certified Solutions</text>
+      <text x="0" y="80" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#FF9900">Architect – Associate</text>
+
+      <text x="0" y="108" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12.5" fill="#94A3B8">Amazon Web Services · Cloud Architecture</text>
+
+      <!-- Domain Pills -->
+      <g transform="translate(0, 128)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#FDE68A">
+        <rect x="0" y="0" width="118" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="12" y="17">Resilient Design</text>
+
+        <rect x="126" y="0" width="126" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="138" y="17">High Availability</text>
+
+        <rect x="260" y="0" width="108" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="272" y="17">Cloud Security</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 2: Azure AI Foundation Certificate -->
+  <g transform="translate(618, 10)">
+    <rect x="0" y="0" width="574" height="230" rx="18" fill="url(#cardBg)" />
+    <rect x="0" y="0" width="574" height="230" rx="18" fill="url(#azureAura)" />
+    <rect x="1" y="1" width="572" height="228" rx="17" fill="none" stroke="url(#azureCardBorder)" stroke-width="1.8" />
+
+    <!-- Corner Accents -->
+    <path d="M 16 32 L 16 16 L 32 16" fill="none" stroke="#00D4FF" stroke-width="2" />
+    <path d="M 542 214 L 558 214 L 558 198" fill="none" stroke="#A855F7" stroke-width="2" />
+
+    <!-- Geometric Crest Emblem (Azure AI Neural Diamond) -->
+    <g transform="translate(90, 115)">
+      <circle cx="0" cy="0" r="56" fill="none" stroke="#00D4FF" stroke-opacity="0.3" stroke-dasharray="10 6">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="22s" repeatCount="indefinite" />
+      </circle>
+      <polygon points="0,-46 44,0 0,46 -44,0" fill="#07132A" stroke="#00D4FF" stroke-width="2" filter="url(#certGlow)" />
+      <polygon points="0,-35 33,0 0,35 -33,0" fill="none" stroke="#A855F7" stroke-width="1" stroke-opacity="0.7" />
+      <!-- Neural AI Constellation inside emblem -->
+      <line x1="-12" y1="6" x2="0" y2="-14" stroke="#38BDF8" stroke-width="1.3" />
+      <line x1="0" y1="-14" x2="12" y2="6" stroke="#A855F7" stroke-width="1.3" />
+      <line x1="-12" y1="6" x2="12" y2="6" stroke="#22D3EE" stroke-width="1.3" />
+      <circle cx="0" cy="-14" r="3.5" fill="#A855F7" />
+      <circle cx="-12" cy="6" r="3.5" fill="#00D4FF" />
+      <circle cx="12" cy="6" r="3.5" fill="#38BDF8" />
+      <text x="0" y="24" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#BAE6FD" letter-spacing="1.2">AZURE AI</text>
+    </g>
+
+    <!-- Credential Details -->
+    <g transform="translate(174, 42)">
+      <rect x="0" y="0" width="194" height="24" rx="12" fill="#071C36" stroke="#00D4FF" stroke-opacity="0.6" />
+      <circle cx="14" cy="12" r="3.8" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="26" y="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="0.9">CERTIFIED CREDENTIAL</text>
+
+      <text x="0" y="54" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">Azure AI Foundation</text>
+      <text x="0" y="80" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#38BDF8">Certificate</text>
+
+      <text x="0" y="108" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12.5" fill="#94A3B8">Microsoft Azure · Artificial Intelligence</text>
+
+      <!-- Domain Pills -->
+      <g transform="translate(0, 128)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#BAE6FD">
+        <rect x="0" y="0" width="124" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="12" y="17">Azure AI Stack</text>
+
+        <rect x="132" y="0" width="118" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="144" y="17">AI Foundations</text>
+
+        <rect x="258" y="0" width="114" height="26" rx="6" fill="#0F172A" stroke="#334155" />
+        <text x="270" y="17">Smart Ops</text>
+      </g>
+    </g>
+  </g>
+</svg>

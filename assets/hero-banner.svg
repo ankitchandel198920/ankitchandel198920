@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Hello World! I'm Ankit Chandel — Senior DevOps Engineer, Cloud Architect, and AI Enthusiast">
+  <defs>
+    <!-- Deep Space Cosmic Background -->
+    <linearGradient id="spaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030612" />
+      <stop offset="50%" stop-color="#070D21" />
+      <stop offset="100%" stop-color="#0B0F24" />
+    </linearGradient>
+
+    <!-- Nebulae Glows -->
+    <radialGradient id="nebulaAzure" cx="16%" cy="22%" r="52%">
+      <stop offset="0%" stop-color="#0078D4" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0078D4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nebulaAws" cx="84%" cy="76%" r="48%">
+      <stop offset="0%" stop-color="#FF9900" stop-opacity="0.24" />
+      <stop offset="55%" stop-color="#F59E0B" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nebulaViolet" cx="56%" cy="18%" r="45%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.75" />
+      <stop offset="45%" stop-color="#6366F1" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#070D21" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Animated Holographic Frame Border -->
+    <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.85" />
+      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.55" />
+      <stop offset="68%" stop-color="#A855F7" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0.85" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0%;50%;0%" dur="12s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Gradient Typography -->
+    <linearGradient id="heroTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="35%" stop-color="#38BDF8" />
+      <stop offset="70%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#FBBF24" />
+      <animate attributeName="x1" values="0%;-40%;0%" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;140%;100%" dur="9s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="accentBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0078D4" />
+      <stop offset="35%" stop-color="#22D3EE" />
+      <stop offset="70%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#FF9900" />
+    </linearGradient>
+
+    <!-- Subtle Space Matrix Grid -->
+    <pattern id="cosmicGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.38" />
+      <circle cx="0" cy="0" r="1" fill="#38BDF8" opacity="0.25" />
+    </pattern>
+
+    <!-- Soft Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Layers -->
+  <rect width="1200" height="380" rx="20" fill="url(#spaceBg)" />
+  <rect width="1200" height="380" rx="20" fill="url(#cosmicGrid)" />
+  <rect width="1200" height="380" rx="20" fill="url(#nebulaAzure)" />
+  <rect width="1200" height="380" rx="20" fill="url(#nebulaAws)" />
+  <rect width="1200" height="380" rx="20" fill="url(#nebulaViolet)" />
+
+  <!-- Deep-Space Twinkling Starfield -->
+  <g id="starfield">
+    <circle cx="72" cy="48" r="1.3" fill="#E2E8F0"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.4s" repeatCount="indefinite" /></circle>
+    <circle cx="164" cy="84" r="1" fill="#38BDF8"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.1s" repeatCount="indefinite" /></circle>
+    <circle cx="248" cy="36" r="1.5" fill="#F8FAFC"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite" /></circle>
+    <circle cx="342" cy="68" r="1.1" fill="#A855F7"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="5.2s" repeatCount="indefinite" /></circle>
+    <circle cx="430" cy="42" r="1.4" fill="#22D3EE"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.7s" repeatCount="indefinite" /></circle>
+    <circle cx="528" cy="92" r="1" fill="#F8FAFC"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="4.6s" repeatCount="indefinite" /></circle>
+    <circle cx="618" cy="34" r="1.6" fill="#FBBF24"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="3.3s" repeatCount="indefinite" /></circle>
+    <circle cx="712" cy="76" r="1.2" fill="#38BDF8"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="4.8s" repeatCount="indefinite" /></circle>
+    <circle cx="788" cy="46" r="1" fill="#F8FAFC"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.7s" repeatCount="indefinite" /></circle>
+    <circle cx="1115" cy="54" r="1.5" fill="#FF9900"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite" /></circle>
+    <circle cx="1148" cy="142" r="1.1" fill="#38BDF8"><animate attributeName="opacity" values="0.9;0.25;0.9" dur="4.3s" repeatCount="indefinite" /></circle>
+    <circle cx="1126" cy="318" r="1.4" fill="#A855F7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.9s" repeatCount="indefinite" /></circle>
+    <circle cx="810" cy="338" r="1.2" fill="#22D3EE"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="5.0s" repeatCount="indefinite" /></circle>
+    <circle cx="645" cy="348" r="1" fill="#F8FAFC"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.2s" repeatCount="indefinite" /></circle>
+    <circle cx="112" cy="340" r="1.3" fill="#38BDF8"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="4.4s" repeatCount="indefinite" /></circle>
+    <!-- 4-point Sparkle Stars -->
+    <path d="M 684 52 L 686 58 L 692 60 L 686 62 L 684 68 L 682 62 L 676 60 L 682 58 Z" fill="#38BDF8" opacity="0.85">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 1094 274 L 1096 279 L 1101 281 L 1096 283 L 1094 288 L 1092 283 L 1087 281 L 1092 279 Z" fill="#FF9900" opacity="0.85">
+      <animate attributeName="opacity" values="0.95;0.2;0.95" dur="3.6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Outer Holographic Border & Corner Reticles -->
+  <rect x="2" y="2" width="1196" height="376" rx="19" fill="none" stroke="url(#hudBorder)" stroke-width="1.8" />
+  <g stroke="#22D3EE" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M 18 36 L 18 18 L 36 18" />
+    <path d="M 1164 18 L 1182 18 L 1182 36" stroke="#FF9900" />
+    <path d="M 18 344 L 18 362 L 36 362" stroke="#A855F7" />
+    <path d="M 1164 362 L 1182 362 L 1182 344" stroke="#FF9900" />
+  </g>
+
+  <!-- Right-Side Cosmic Orbital Command Core -->
+  <g transform="translate(970, 190)">
+    <!-- Ambient Core Aura -->
+    <circle cx="0" cy="0" r="145" fill="url(#coreGlow)" />
+
+    <!-- Outer Dashed Orbit (Slow Clockwise) -->
+    <g>
+      <circle cx="0" cy="0" r="134" fill="none" stroke="#1E293B" stroke-width="1.2" />
+      <circle cx="0" cy="0" r="134" fill="none" stroke="#00D4FF" stroke-width="1.4" stroke-dasharray="14 18 4 18" opacity="0.55" />
+      <!-- Orbiting AWS Amber Planet -->
+      <g transform="translate(134, 0)">
+        <circle cx="0" cy="0" r="11" fill="#FF9900" filter="url(#neonGlow)" />
+        <circle cx="-3" cy="-3" r="3.5" fill="#FEF3C7" opacity="0.75" />
+        <ellipse cx="0" cy="0" rx="18" ry="6" fill="none" stroke="#FBBF24" stroke-width="1.2" transform="rotate(-24)" opacity="0.75" />
+      </g>
+      <!-- Opposite Small Telemetry Moon -->
+      <circle cx="-134" cy="0" r="4.5" fill="#22D3EE" filter="url(#neonGlow)" />
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="28s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Middle Tilted Orbit (Counter-Clockwise) -->
+    <g>
+      <ellipse cx="0" cy="0" rx="102" ry="86" fill="none" stroke="#A855F7" stroke-width="1.2" stroke-dasharray="6 10" opacity="0.6" transform="rotate(-18)" />
+      <!-- Orbiting Azure Blue Planet -->
+      <g transform="translate(0, -94)">
+        <circle cx="0" cy="0" r="9.5" fill="#0078D4" filter="url(#neonGlow)" />
+        <circle cx="-2.5" cy="-2.5" r="3" fill="#7DD3FC" opacity="0.85" />
+      </g>
+      <!-- Orbiting AI Violet Satellite -->
+      <g transform="translate(0, 94)">
+        <rect x="-5" y="-5" width="10" height="10" rx="2.5" fill="#A855F7" transform="rotate(45)" filter="url(#neonGlow)" />
+      </g>
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Inner Ring -->
+    <g>
+      <circle cx="0" cy="0" r="62" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="28 12" opacity="0.65" />
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="14s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Central Glassmorphic Cloud-AI Core -->
+    <circle cx="0" cy="0" r="42" fill="#091128" fill-opacity="0.9" stroke="#22D3EE" stroke-width="1.8" filter="url(#neonGlow)" />
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#A855F7" stroke-width="0.9" opacity="0.65" />
+    <!-- Neural Cloud Core Symbol -->
+    <path d="M -14 8 C -19 8 -22 4 -22 0 C -22 -4 -19 -8 -14 -8 C -13 -14 -7 -18 0 -18 C 7 -18 13 -13 14 -7 C 19 -7 22 -3 22 2 C 22 6 18 10 13 10 L -14 10 Z" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linejoin="round" />
+    <!-- AI Neural Nodes Inside Cloud -->
+    <line x1="-8" y1="-1" x2="0" y2="-7" stroke="#A855F7" stroke-width="1.2" />
+    <line x1="0" y1="-7" x2="9" y2="0" stroke="#FF9900" stroke-width="1.2" />
+    <line x1="-8" y1="-1" x2="9" y2="0" stroke="#22D3EE" stroke-width="1.2" />
+    <circle cx="-8" cy="-1" r="2.6" fill="#22D3EE"><animate attributeName="r" values="2.2;3.2;2.2" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="0" cy="-7" r="2.6" fill="#A855F7"><animate attributeName="r" values="3.0;2.0;3.0" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="9" cy="0" r="2.6" fill="#FF9900"><animate attributeName="r" values="2.2;3.2;2.2" dur="2.4s" repeatCount="indefinite" /></circle>
+    <text x="0" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" fill="#94A3B8" letter-spacing="1.4">CLOUD · AI</text>
+  </g>
+
+  <!-- Left-Side Glassmorphic Command HUD -->
+  <!-- Top Status Telemetry Pill -->
+  <g transform="translate(54, 42)">
+    <rect x="0" y="0" width="422" height="30" rx="15" fill="#0B132B" fill-opacity="0.82" stroke="#1E3A5F" stroke-width="1.1" />
+    <circle cx="18" cy="15" r="4.5" fill="#22D3EE" filter="url(#neonGlow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#BAE6FD" letter-spacing="1.2">COMMAND CENTER // AZURE · AWS · DEVOPS · AI</text>
+  </g>
+
+  <!-- Large Animated Introduction -->
+  <text x="54" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" fill="#38BDF8" letter-spacing="3.5">HELLO, WORLD! I'M</text>
+
+  <text x="52" y="190" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#heroTitleGrad)" letter-spacing="-0.5" filter="url(#softGlow)">ANKIT CHANDEL</text>
+
+  <!-- Subtitle -->
+  <text x="54" y="228" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#E2E8F0">
+    Senior DevOps Engineer  <tspan fill="#38BDF8">|</tspan>  Cloud Architect  <tspan fill="#FF9900">|</tspan>  AI Enthusiast
+  </text>
+
+  <!-- Glowing Horizon Accent Line -->
+  <rect x="54" y="246" width="520" height="3" rx="1.5" fill="url(#accentBarGrad)" />
+  <circle cx="54" cy="247.5" r="3" fill="#22D3EE" filter="url(#neonGlow)">
+    <animate attributeName="cx" values="54;574;54" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Glassmorphic Ecosystem Telemetry Chips -->
+  <g transform="translate(54, 276)">
+    <!-- Chip 1: Azure -->
+    <rect x="0" y="0" width="212" height="58" rx="12" fill="#0B132B" fill-opacity="0.78" stroke="#0078D4" stroke-opacity="0.65" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="5" fill="#00D4FF" filter="url(#neonGlow)" />
+    <text x="34" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="0.8">MICROSOFT AZURE</text>
+    <text x="20" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Azure AI · AKS · Landing Zones</text>
+
+    <!-- Chip 2: AWS -->
+    <rect x="228" y="0" width="224" height="58" rx="12" fill="#0B132B" fill-opacity="0.78" stroke="#FF9900" stroke-opacity="0.65" stroke-width="1.2" />
+    <circle cx="248" cy="22" r="5" fill="#FF9900" filter="url(#neonGlow)" />
+    <text x="262" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#FBBF24" letter-spacing="0.8">AMAZON WEB SERVICES</text>
+    <text x="248" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Solutions Architect – Associate</text>
+
+    <!-- Chip 3: DevOps & AI -->
+    <rect x="468" y="0" width="242" height="58" rx="12" fill="#0B132B" fill-opacity="0.78" stroke="#A855F7" stroke-opacity="0.65" stroke-width="1.2" />
+    <circle cx="488" cy="22" r="5" fill="#A855F7" filter="url(#neonGlow)" />
+    <text x="502" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#D8B4FE" letter-spacing="0.8">DEVOPS &amp; AI OPS</text>
+    <text x="488" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Terraform · Kubernetes · CI/CD</text>
+  </g>
+</svg>

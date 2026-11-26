@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 186" width="1200" height="186" role="img" aria-label="GitHub Contribution Snake Telemetry Grid">
+  <defs>
+    <linearGradient id="snkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050917" />
+      <stop offset="100%" stop-color="#0B1228" />
+    </linearGradient>
+    <linearGradient id="snkBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0078D4" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0.7" />
+    </linearGradient>
+    <filter id="snkGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- Snake Traversal Path across the grid -->
+    <path id="snakePath" d="M 88 64 L 320 64 L 320 96 L 560 96 L 560 64 L 820 64 L 820 112 L 1090 112" />
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="182" rx="16" fill="url(#snkBg)" stroke="url(#snkBorder)" stroke-width="1.4" />
+
+  <text x="36" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.2">CONTRIBUTION TELEMETRY // RUN GITHUB ACTION TO SYNC LIVE GRAPH</text>
+
+  <!-- Stylized Cosmic Contribution Grid Matrix -->
+  <g transform="translate(80, 52)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="20" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.65" />
+    <rect x="40" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="60" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.75" />
+    <rect x="80" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.75" /><rect x="100" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="120" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.8" /><rect x="140" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.85" />
+    <rect x="160" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="180" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.6" />
+    <rect x="200" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="220" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.6" />
+    <rect x="240" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.85" /><rect x="260" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="280" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.9" /><rect x="300" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="320" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.75" /><rect x="340" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="360" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.7" /><rect x="380" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.8" />
+    <rect x="400" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="420" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.7" />
+    <rect x="440" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="460" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.9" />
+    <rect x="480" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.6" /><rect x="500" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="520" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.85" /><rect x="540" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" />
+    <rect x="560" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="580" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.8" />
+    <rect x="600" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="620" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.7" />
+    <rect x="640" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.75" /><rect x="660" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="680" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.85" /><rect x="700" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="720" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.7" /><rect x="740" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.85" />
+    <rect x="760" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="780" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.8" />
+    <rect x="800" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="820" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.75" />
+    <rect x="840" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" /><rect x="860" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="880" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.9" /><rect x="900" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+    <rect x="920" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.75" /><rect x="940" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.6" />
+    <rect x="960" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="980" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.8" />
+    <rect x="1000" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.7" /><rect x="1020" y="0" width="14" height="14" rx="3" fill="#0F172A" />
+
+    <!-- Row 2 & 3 -->
+    <g transform="translate(0, 20)" opacity="0.85">
+      <rect x="0" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.6" /><rect x="40" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.75" />
+      <rect x="100" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.7" /><rect x="160" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.8" />
+      <rect x="220" y="0" width="14" height="14" rx="3" fill="#0F172A" /><rect x="280" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.7" />
+      <rect x="360" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.85" /><rect x="420" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.65" />
+      <rect x="500" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.75" /><rect x="580" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.7" />
+      <rect x="660" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.85" /><rect x="740" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.8" />
+      <rect x="820" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" /><rect x="900" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.9" />
+      <rect x="980" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.7" /><rect x="1020" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.8" />
+    </g>
+    <g transform="translate(0, 40)" opacity="0.9">
+      <rect x="20" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" /><rect x="80" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.85" />
+      <rect x="140" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.8" /><rect x="200" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.75" />
+      <rect x="260" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.65" /><rect x="340" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.8" />
+      <rect x="400" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.75" /><rect x="480" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.85" />
+      <rect x="560" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.7" /><rect x="640" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.85" />
+      <rect x="720" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.8" /><rect x="800" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.75" />
+      <rect x="880" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" /><rect x="960" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.85" />
+    </g>
+    <g transform="translate(0, 60)" opacity="0.8">
+      <rect x="0" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.7" /><rect x="60" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.65" />
+      <rect x="120" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.75" /><rect x="180" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.8" />
+      <rect x="240" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.7" /><rect x="300" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.8" />
+      <rect x="380" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.85" /><rect x="460" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" />
+      <rect x="540" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.75" /><rect x="620" y="0" width="14" height="14" rx="3" fill="#38BDF8" opacity="0.8" />
+      <rect x="700" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.85" /><rect x="780" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.7" />
+      <rect x="860" y="0" width="14" height="14" rx="3" fill="#0078D4" opacity="0.8" /><rect x="940" y="0" width="14" height="14" rx="3" fill="#FF9900" opacity="0.75" />
+      <rect x="1000" y="0" width="14" height="14" rx="3" fill="#A855F7" opacity="0.85" />
+    </g>
+  </g>
+
+  <!-- Animated Cosmic Snake Path + Multi-Segment Snake -->
+  <use href="#snakePath" fill="none" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="-7" y="-7" width="14" height="14" rx="4" fill="#22D3EE" filter="url(#snkGlow)">
+    <animateMotion dur="7s" repeatCount="indefinite"><mpath href="#snakePath" /></animateMotion>
+  </rect>
+  <rect x="-6" y="-6" width="12" height="12" rx="3.5" fill="#38BDF8" opacity="0.9">
+    <animateMotion dur="7s" begin="-0.14s" repeatCount="indefinite"><mpath href="#snakePath" /></animateMotion>
+  </rect>
+  <rect x="-5.5" y="-5.5" width="11" height="11" rx="3" fill="#A855F7" opacity="0.85">
+    <animateMotion dur="7s" begin="-0.28s" repeatCount="indefinite"><mpath href="#snakePath" /></animateMotion>
+  </rect>
+  <rect x="-5" y="-5" width="10" height="10" rx="3" fill="#FF9900" opacity="0.75">
+    <animateMotion dur="7s" begin="-0.42s" repeatCount="indefinite"><mpath href="#snakePath" /></animateMotion>
+  </rect>
+
+  <text x="1164" y="164" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">AUTO-UPDATED DAILY VIA .github/workflows/snake.yml</text>
+</svg>
